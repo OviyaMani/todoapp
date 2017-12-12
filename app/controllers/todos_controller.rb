@@ -15,6 +15,9 @@ end
 def show
   @todo = Todo.find(params[:id])
 end
+def edit
+  @todo = Todo.find(params[:id])
+end
 private
 
 def todo_params
